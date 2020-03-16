@@ -47,7 +47,7 @@ namespace ConsoleApp2
                 Console.WriteLine("{0}-{1}", Th[i], F[i]);
             }
             Console.WriteLine("Расчет КНД:");
-            double D = GetKND(F, dth);
+            double D = GetKND(F, dth); // Здесь расчитывается КНД
             Console.WriteLine("КНД=" + D);
             Console.ReadLine();
         }
